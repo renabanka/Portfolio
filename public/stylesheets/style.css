@@ -174,6 +174,30 @@ nav a:hover {
     padding: 15px;
 }
 
+.designtext {
+    padding: 0px 7px 10px 7px;
+}
+
+.designheading {
+    padding: 0px 7px 0px 7px;
+}
+
+
+.designimage {
+    padding: 30px 7px 7px 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+.designimage2 {
+    padding: 50px 7px 7px 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
 
 video {
     position: fixed;
@@ -188,4 +212,22 @@ video {
     background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
     background-size: cover;
     transition: 1s opacity;
+}
+
+
+
+
+.designrow {
+    width: 325px;
+    height: 325px;
+    margin: 38px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    float:left;
+    background-color: white;
+}
+
+
+.designrow:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
