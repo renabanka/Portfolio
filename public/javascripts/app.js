@@ -4,6 +4,8 @@ angular.module('renaBankaPortfolio', [ 'ngRoute'
     '$routeProvider',
     function($locationProvider, $routeProvider) {
 
+
+
         $locationProvider.html5Mode({
             enabled: true,
             requireBase: false // good for anything IE9+
@@ -45,3 +47,4 @@ angular.module('renaBankaPortfolio', [ 'ngRoute'
         $routeProvider.otherwise({ redirectTo: '/' });
     }
 ]);
+
