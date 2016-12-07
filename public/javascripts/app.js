@@ -20,15 +20,10 @@ angular.module('renaBankaPortfolio', [ 'ngRoute'
                 templateUrl: 'ngViews/about.html',
                 controller: 'AboutCtrl'
             })
-            .when('/contact', {
-                templateUrl: 'ngViews/contact.html',
-                controller: 'ContactCtrl'
-
-            })
 
             .when('/projects', {
-                templateUrl: 'ngViews/projects.html',
-                controller: 'ProjectsCtrl'
+                templateUrl: 'ngViews/development.html',
+                controller: 'DevelopmentCtrl'
 
             })
 

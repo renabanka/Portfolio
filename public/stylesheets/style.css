@@ -141,7 +141,7 @@ h1 , h2 {
 
 
 .row {
-    padding: 30px;
+    width: 100%;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     opacity:0;  /* make things invisible upon start */
@@ -163,17 +163,26 @@ h1 , h2 {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-#lyricalprojectinfo {
-    padding: 50px 50px 50px 50px;
+#projectinfo {
+    padding: 50px 50px 50px;
     text-align: right;
 }
 
-#lyricalprojectinfo2 {
-    padding: 50px 50px 50px 50px;
+#projectinfo2 {
+    padding: 50px 0px 50px 50px;
     text-align: left;
 }
 
+#projectphoto {
+    padding: 78px 0px 78px 50px;
 
+}
+
+
+
+#projectphoto2 {
+    padding: 78px 0px 78px 0px;
+}
 
 .projectdescription {
     text-align:right;
@@ -183,6 +192,8 @@ h1 , h2 {
 .projectdescription2 {
     text-align:left;
     margin-right: 10rem;
+    padding-right: 5px;
+
 }
 
 
@@ -192,9 +203,7 @@ h1 , h2 {
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-#RSVPphoto {
-    margin-left: -190px;
-}
+
 
 .sociallinks {
     background-color: white;
@@ -214,9 +223,7 @@ h1 , h2 {
     padding: 15px;
 }
 
-.pictext:hover {
 
-}
 
 .pictext2 {
     padding: 15px;
@@ -319,25 +326,33 @@ video {
 }
 
 .projectimage {
-    height: 250px;
-    width: 500px;
+    height: 275px;
+    width: 475px;
 }
 
+
 .projectimage2 {
-    height: 300px;
-    width: 600px;
+    height: 275px;
+    width: 475px;
 }
+
+
 
 
 
 /*iphone 5*/
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width: 320px) {
+
+    .container {
+        margin: auto 0;
+
+    }
     .renalogo {
-    padding: 100px 7px 7px 7px;
-    display: block;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+        padding: 100px 7px 7px 7px;
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .nav a {
@@ -354,9 +369,9 @@ video {
 
     }
 
-#process {
-    visibility: hidden;
-}
+    #process {
+        visibility: hidden;
+    }
 
     .nav a:before {
         content: "";
@@ -424,6 +439,78 @@ video {
         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
         transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     }
+
+    p.projectdescription {
+        text-align:center;
+        margin-left: 0rem;
+
+    }
+
+    p.projectdescription2 {
+        text-align:center;
+        margin-right: 0rem;
+
+    }
+
+    #projectphoto.five.columns                   { width: 100%; }
+    #projectinfo.seven.columns                  { width: 100%; }
+    #projectphoto2.five.columns                   { width: 100%; }
+    #projectinfo2.seven.columns                  { width: 100%; }
+
+    a  {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+
+    .projectimage {
+        height: 100px;
+        width: 175px;
+    }
+
+
+    .projectimage2 {
+        height: 100px;
+        width: 175px;
+    }
+
+    #projectinfo {
+        padding: 0px 5px 0px 5px;
+        text-align: center;
+    }
+
+    #projectinfo2 {
+        padding: 0px 5px 0px 5px;
+        float: left;
+        text-align: center;
+    }
+
+    .projectimage {
+        margin-left: 7%;
+    }
+
+    .projectimage2 {
+        margin-left: 10%;
+    }
+
+    #projectphoto {
+        padding: 5px 5px 5px 5px;
+
+    }
+
+
+    #projectphoto2 {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+
 }
 
 /*iphone 6*/
@@ -493,8 +580,8 @@ video {
     .pictext2 {
         padding: 10px;
     }
-    
-    
+
+
 
     .nav a {
         display: inline-block;
@@ -526,13 +613,84 @@ video {
         -webkit-transition-timing-function: ease-out;
         transition-timing-function: ease-out;
     }
+
+    p.projectdescription {
+        text-align:center;
+        margin-left: 0rem;
+
+    }
+
+    p.projectdescription2 {
+        text-align:center;
+        margin-right: 0rem;
+
+    }
+
+    #projectphoto.five.columns                   { width: 100%; }
+    #projectinfo.seven.columns                  { width: 100%; }
+    #projectphoto2.five.columns                   { width: 100%; }
+    #projectinfo2.seven.columns                  { width: 100%; }
+
+    a  {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+
+    .projectimage {
+        height: 100px;
+        width: 175px;
+    }
+
+
+    .projectimage2 {
+        height: 100px;
+        width: 175px;
+    }
+
+    #projectinfo {
+        padding: 0px 5px 0px 5px;
+        text-align: center;
+    }
+
+    #projectinfo2 {
+        padding: 20px 5px 0px 5px;
+        float: left;
+        text-align: center;
+    }
+
+    .projectimage {
+        margin-left: 10%;
+    }
+
+    .projectimage2 {
+        margin-left: 10%;
+    }
+
+    #projectphoto {
+        padding: 20px 5px 20px 5px;
+
+    }
+
+
+    #projectphoto2 {
+        padding: 0px 0px 20px 0px;
+    }
+
+    .row {
+        width: 100%;
+    }
 }
 
 /*ipad*/
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 480px) and (max-device-width : 1024px) {
     .container {
         margin: auto 0;
+
     }
 
     .renalogo {
@@ -586,6 +744,7 @@ video {
 
     .renapic {
         width: 550px;
+
     }
 
     .sociallinks {
@@ -630,6 +789,43 @@ video {
         -webkit-transition-timing-function: ease-out;
         transition-timing-function: ease-out;
     }
+
+
+    #projectphoto.five.columns                   { width: 100%; }
+    #projectinfo.seven.columns                  { width: 100%; }
+    #projectphoto2.five.columns                   { width: 100%; }
+    #projectinfo2.seven.columns                  { width: 100%; }
+
+    .projectimage {
+        margin-left: 2%;
+    }
+
+    .projectimage2 {
+        margin-left: 10%;
+    }
+
+    #projectinfo {
+        padding: 30px 50px 30px;
+        text-align: right;
+    }
+
+    #projectinfo2 {
+        padding: 30px 0px 30px 50px;
+        text-align: left;
+        float:right;
+    }
+
+    #projectphoto {
+        padding: 50px 0px 50px 50px;
+    }
+
+
+    #projectphoto2 {
+        padding: 0px 0px 100px 0px;
+        float: left;
+    }
+
+
 
 
 
