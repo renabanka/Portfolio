@@ -276,6 +276,8 @@ h1 , h2 {
 
 .pictext3 {
     padding: 5px;
+    float:left;
+    clear:both;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -319,7 +321,7 @@ h1 , h2 {
     overflow: hidden;
     position: absolute;
     top: 100%; left: 43%;
-    width: 11em; height: 11em;
+    width: 10em; height: 10em;
 }
 .circle-container img { display: block; width: 100%; }
 
@@ -387,7 +389,7 @@ video {
 }
 
 .renalogo {
-    padding: 180px 7px 7px 7px;
+    padding: 170px 7px 7px 7px;
     display: block;
     width: 38%;
     margin-left: auto;
@@ -601,7 +603,10 @@ video {
         -moz-animation-duration:2s;
         animation-duration:2s;
     }
+    .renapic {
+        width: 230px;
 
+    }
 
 }
 
@@ -965,3 +970,21 @@ video {
 
 }
 
+.process {
+    display: none;
+    border:1px solid #000;
+    border:1px solid #000;
+    height:30px;
+    width:290px;
+    margin-left:10px;
+    font-color: black;
+    font-size: 42px;
+}
+
+a:hover + .process {
+    display: block;
+}​
+
+.processsection {
+margin: auto 0;
+}
